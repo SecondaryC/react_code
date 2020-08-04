@@ -1,0 +1,32 @@
+.wrapper {
+	position: relative;
+	margin: 20px auto 0;
+    width: 900px;
+    text-align: center;
+}
+
+.wrapper ul {
+	width: 100%;
+}
+
+.wrapper ul li {
+	list-style: none;
+	display: block;
+	height: 280px;
+	margin: 5px;
+	float: left;
+	width: calc(25% - 10px);
+}
+
+.wrapper ul li div{
+    width: 100%;
+    height: 100%;
+}
+
+.againstColor{
+    background-color: #AAA;
+}
+
+.empty{
+    background-color: #fff;
+}
